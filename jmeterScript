@@ -1,0 +1,4 @@
+node {
+  stage 'Run JMeter Test'
+  sh 'jmeter -n -t simple_jmeter_get_script.jmx -l log.jtl'
+}

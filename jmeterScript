@@ -1,4 +1,4 @@
 node {
   stage 'Run JMeter Test'
-  sh 'jmeter -n -t simple_jmeter_get_script.jmx -l log.jtl'
+  sh 'jmeter -n -t /home/ubuntu/jmeter/scripts/simple_jmeter_get_script.jmx -l log.jtl'
 }
